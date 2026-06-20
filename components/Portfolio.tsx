@@ -148,12 +148,13 @@ function ProjectCard({ project, index }: { project: typeof projects[0]; index: n
           animate={{ opacity: hovered ? 1 : 0 }}
           transition={{ duration: 0.3 }}
         >
-          <div
-            className="px-5 py-2 rounded-full text-sm font-semibold text-dark"
-            style={{ background: project.accent }}
-          >
-            צפה בפרויקט ←
-          </div>
+       <a
+  href="#contact"
+  className="px-5 py-2 rounded-full text-sm font-semibold text-dark"
+  style={{ background: project.accent }}
+>
+  צפה בפרויקט ←
+</a>
         </motion.div>
       </div>
 
